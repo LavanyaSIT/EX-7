@@ -14,9 +14,13 @@ To write the python program for simulating Traceroute command
 
 ## Developed :Lavanya S
 ## Reg no : 212221220030
+
 from scapy.all import*
+
 target = ["www.google.com"]
+
 result, unans = traceroute(target,maxttl=32)
+
 print(result,unans)
 
 # OUTPUT :
